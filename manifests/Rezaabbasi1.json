@@ -1,0 +1,107 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gostham2004.github.io/MergMan/manifests/Rezaabbasi1.json",
+  "@type" : "sc:Manifest",
+  "label" : [ ],
+  "metadata" : [ {
+    "label" : "Date",
+    "value" : "Ilkhanid Era"
+  }, {
+    "label" : "Title",
+    "value" : "Shahnameh of Ferdowsi"
+  } ],
+  "description" : [ ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://3e6f3868-6ae7-4eef-a5f7-0b697d847474",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e9996ac4-ae7e-4c7e-9557-b1412022d6e5",
+      "@type" : "sc:Canvas",
+      "label" : "Reza Abbasi Ilkhanid Shahnameh 01",
+      "height" : 747,
+      "width" : 596,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3c1f3b33-84d6-470f-bb1e-ece70e1e87b6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5563-/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5563-",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 747,
+          "width" : 596
+        },
+        "on" : "http://e9996ac4-ae7e-4c7e-9557-b1412022d6e5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://87a0e4fc-eed4-499e-9471-1dfb9095edfa",
+      "@type" : "sc:Canvas",
+      "label" : "Reza Abbasi Ilkhanid Shahnameh 02",
+      "height" : 910,
+      "width" : 692,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6f62825b-ce93-4efb-9430-e7362d96355d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5566/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5566",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 910,
+          "width" : 692
+        },
+        "on" : "http://87a0e4fc-eed4-499e-9471-1dfb9095edfa"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ea520a81-8af9-4ca8-8a13-0e8a51cdc25c",
+      "@type" : "sc:Canvas",
+      "label" : "Reza Abbasi Ilkhanid Shahnameh 03",
+      "height" : 880,
+      "width" : 624,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3c115164-84da-4bf8-9531-5760c98960ee",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5565/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5565",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 880,
+          "width" : 624
+        },
+        "on" : "http://ea520a81-8af9-4ca8-8a13-0e8a51cdc25c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://8030055d-a877-4c79-8c7b-60017a68d75d"
+  }
+}
