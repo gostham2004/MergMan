@@ -1,0 +1,55 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gostham2004.github.io/MergMan/manifests/first01.json",
+  "@type" : "sc:Manifest",
+  "label" : [ ],
+  "metadata" : [ {
+    "label" : "Date",
+    "value" : "Ilkhanid Era"
+  }, {
+    "label" : "Title",
+    "value" : "Shahnameh of Ferdowsi"
+  } ],
+  "description" : [ ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://3e6f3868-6ae7-4eef-a5f7-0b697d847474",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e9996ac4-ae7e-4c7e-9557-b1412022d6e5",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3872,
+      "width" : 2818,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://05571607-77cf-41c0-8d91-c48dd267b311",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gostham2004.github.io/MergMan/images/DP238058/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gostham2004.github.io/MergMan/images/DP238058",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3872,
+          "width" : 2818
+        },
+        "on" : "http://e9996ac4-ae7e-4c7e-9557-b1412022d6e5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://8030055d-a877-4c79-8c7b-60017a68d75d"
+  }
+}
