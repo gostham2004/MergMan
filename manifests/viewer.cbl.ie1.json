@@ -1,0 +1,243 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gostham2004.github.io/MergMan/manifests/viewer.cbl.ie1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Rustam grabs Afrasiyab, from the Book of Kings (Shahnama) by Firdausi",
+  "attribution" : "Goobi viewer",
+  "license" : "iiif_license",
+  "logo" : {
+    "@id" : "https://viewer.cbl.ie/viewer/resources/themes/cbl/images/dfgviewer_intranda.jpg",
+    "@type" : "dcTypes:Image"
+  },
+  "thumbnail" : {
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg/full/!400,400/0/default.jpg",
+    "@type" : "dcTypes:Image",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "metadata" : [ {
+    "label" : "MD_DV_OWNERLOGO",
+    "value" : "https://viewer.cbl.ie/viewer/resources/themes/cbl/images/template/fullscreen_logo.png"
+  }, {
+    "label" : "MD_LINK",
+    "value" : "https://viewer.cbl.ie/viewer/ppnresolver?id=Per_104_9"
+  }, {
+    "label" : "MD_PRODUCTIONDATE_END",
+    "value" : "1300; 1000"
+  }, {
+    "label" : "Creator",
+    "value" : "Unknown"
+  }, {
+    "label" : "MD_ORDERLABELRANGE",
+    "value" : "r - v"
+  }, {
+    "label" : "Production date",
+    "value" : "c. 1300"
+  }, {
+    "label" : "MD_MATERIAL_HIERARCHY",
+    "value" : "Approved Material 2018/Organic/Plant (material)/Plant fibre/Paper (material); Approved Material 2018/Materials/Coating material/Ink (material); Approved Material 2018/Materials/Colourant (material)/Pigment (material); Approved Material 2018/Inorganic/Metal (material)/Non-ferrous metal/Gold"
+  }, {
+    "label" : "Material",
+    "value" : "Paper (material); Ink (material); Pigment (material); Gold"
+  }, {
+    "label" : "MD_PRODUCTIONDATE_START",
+    "value" : "1300; 1000"
+  }, {
+    "label" : "Creator",
+    "value" : "Unknown"
+  }, {
+    "label" : "MD_SUBJECTPERSON",
+    "value" : "Unknown"
+  }, {
+    "label" : "MD_DV_OWNER",
+    "value" : "Chester Beatty Library"
+  }, {
+    "label" : "Script type",
+    "value" : "Naskh script"
+  }, {
+    "label" : "MD_PROCESSID",
+    "value" : "489"
+  }, {
+    "label" : "Place hierarchy",
+    "value" : "Approved Place 2018/Middle East/Iran"
+  }, {
+    "label" : "Description",
+    "value" : "Rustam grabs Afrasiyab by his belt, about to throw him from his horse, folio from the Book of Kings (Shahnama) of Firdausi.  \nDetached folio, ink, pigments and gold on paper, later mounted onto gold-flecked card, Persian text with caption and painting, probably Tabriz, Iran, c. 1300.  \nThis folio is from a dispersed manuscript known to scholars as the \"First Small Shahnama\", of which seventy-seven folios are now in the Chester Beatty. The \"Small Shahnama\" manuscripts are the earliest known illustrated examples of the Book of Kings (Shahnama), the epic Persian poem composed c. 1010 by Firdausi. Two manuscripts are dispersed, and a third is in the Freer Gallery in Washington, DC. Of small format, these three manuscripts are undated, but usually attributed to c. 1300 on stylistic grounds. Details of iconography confirm that production was after the Mongol invasions of Iran and Iraq, and the establishment of Ilkhanid rule in 1258."
+  }, {
+    "label" : "Document type",
+    "value" : "Manuscript"
+  }, {
+    "label" : "Title",
+    "value" : "Rustam grabs Afrasiyab, from the Book of Kings (Shahnama) by Firdausi"
+  }, {
+    "label" : "Object no",
+    "value" : "Per 104.9"
+  }, {
+    "label" : "Dimensions",
+    "value" : "234 mm x 175 mm (height x width)"
+  }, {
+    "label" : "MD_ACCESSCONDITIONCOPYRIGHTURL",
+    "value" : "https://chesterbeatty.ie/"
+  }, {
+    "label" : "MD_PRODUCTIONDATE_ALL",
+    "value" : "1300; 1000; 1310; 1010"
+  }, {
+    "label" : "MD_OBJECT_NAME_HIERARCHY",
+    "value" : "Approved Category 2017/Manuscript/Codex/Folio / Bi-Folio (Codex)"
+  }, {
+    "label" : "Item condition / damages",
+    "value" : "GOOD"
+  }, {
+    "label" : "MD_DV_OWNERSITEURL",
+    "value" : "https://chesterbeatty.ie/"
+  }, {
+    "label" : "Object name",
+    "value" : "Folio / Bi-Folio (Codex)"
+  }, {
+    "label" : "MD_PERSONKEYWORD",
+    "value" : "Unknown"
+  }, {
+    "label" : "MD_DV_OWNERCONTACT",
+    "value" : "mailto:photographicservices@cbl.ie"
+  }, {
+    "label" : "Copyright",
+    "value" : "Chester Beatty Library"
+  }, {
+    "label" : "Language",
+    "value" : "Persian (language)"
+  } ],
+  "service" : {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/manifest/search",
+    "profile" : "http://iiif.io/api/search/1/search",
+    "@type" : "SearchService1",
+    "service" : [ {
+      "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/manifest/autocomplete",
+      "profile" : "http://iiif.io/api/search/1/autocomplete",
+      "@type" : "AutoCompleteService1"
+    } ]
+  },
+  "seeAlso" : {
+    "@id" : "https://viewer.cbl.ie/viewer/metsresolver?id=Per_104_9",
+    "label" : "METS/MODS",
+    "format" : "text/xml"
+  },
+  "sequences" : [ {
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/sequence/base/",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "paged",
+    "within" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/manifest/",
+    "canvases" : [ {
+      "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/1/canvas/",
+      "@type" : "sc:Canvas",
+      "label" : "r",
+      "thumbnail" : {
+        "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg/full/!400,400/0/default.jpg",
+        "@type" : "dcTypes:Image"
+      },
+      "within" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/sequence/base/",
+      "width" : 4776,
+      "height" : 6189,
+      "images" : [ {
+        "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/1/canvas/image/1/",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg/full/!400,400/0/default.jpg",
+          "@type" : "dcTypes:Image",
+          "width" : 4776,
+          "height" : 6189,
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/1/canvas/"
+      } ],
+      "rendering" : [ {
+        "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09049.jpg/full.pdf",
+        "@type" : "dcTypes:Image",
+        "label" : "PDF",
+        "format" : "application/pdf"
+      }, {
+        "@id" : "https://viewer.cbl.ie/viewer/image/Per_104_9/1/",
+        "@type" : "dcTypes:InteractiveResource",
+        "label" : "Goobi viewer",
+        "format" : "text/html"
+      } ]
+    }, {
+      "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/2/canvas/",
+      "@type" : "sc:Canvas",
+      "label" : "v",
+      "thumbnail" : {
+        "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09050.jpg/full/!400,400/0/default.jpg",
+        "@type" : "dcTypes:Image"
+      },
+      "within" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/sequence/base/",
+      "width" : 4799,
+      "height" : 6189,
+      "images" : [ {
+        "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/2/canvas/image/1/",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09050.jpg/full/!400,400/0/default.jpg",
+          "@type" : "dcTypes:Image",
+          "width" : 4799,
+          "height" : 6189,
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09050.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pages/2/canvas/"
+      } ],
+      "rendering" : [ {
+        "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/files/images/Per104_9_09050.jpg/full.pdf",
+        "@type" : "dcTypes:Image",
+        "label" : "PDF",
+        "format" : "application/pdf"
+      }, {
+        "@id" : "https://viewer.cbl.ie/viewer/image/Per_104_9/2/",
+        "@type" : "dcTypes:InteractiveResource",
+        "label" : "Goobi viewer",
+        "format" : "text/html"
+      } ]
+    } ],
+    "viewingDirection" : "left-to-right"
+  } ],
+  "structures" : [ {
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/sections/LOG_0000/range/",
+    "@type" : "sc:Range",
+    "label" : "CONTENT",
+    "viewingHint" : "top"
+  } ],
+  "rendering" : [ {
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/pdf/",
+    "@type" : "dcTypes:Image",
+    "label" : "PDF",
+    "format" : "application/pdf"
+  }, {
+    "@id" : "https://viewer.cbl.ie/viewer/image/Per_104_9/1/LOG_0000/",
+    "@type" : "dcTypes:InteractiveResource",
+    "label" : "Goobi viewer",
+    "format" : "text/html"
+  }, {
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/plaintext/",
+    "@type" : "dcTypes:Text",
+    "label" : "Fulltext",
+    "format" : "text/plain"
+  }, {
+    "@id" : "https://viewer.cbl.ie/viewer/api/v1/records/Per_104_9/alto/",
+    "@type" : "dcTypes:Text",
+    "label" : "ALTO",
+    "format" : "text/xml"
+  } ]
+}
