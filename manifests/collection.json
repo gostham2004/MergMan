@@ -1,0 +1,13 @@
+{
+  "id" : "https://gostham2004.github.io/MergMan/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in gostham2004/MergMan project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : null,
+    "@id" : "https://gostham2004.github.io/MergMan/manifests/1st.json",
+    "label" : null
+  } ]
+}
