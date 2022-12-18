@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 19,
+    "height" : 24
+  }, {
+    "width" : 38,
+    "height" : 47
+  }, {
+    "width" : 75,
+    "height" : 94
+  }, {
+    "width" : 149,
+    "height" : 187
+  }, {
+    "width" : 298,
+    "height" : 374
+  }, {
+    "width" : 596,
+    "height" : 747
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 596,
+  "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5563-",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 747
+}
