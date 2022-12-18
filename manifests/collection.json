@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gostham2004.github.io/MergMan/manifests/viewer.cbl.ie1.json",
     "label" : "Rustam grabs Afrasiyab, from the Book of Kings (Shahnama) by Firdausi"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gostham2004.github.io/MergMan/manifests/viewer.cbl.ie2.json",
+    "label" : "Iskandar consults the talking birds on the mountain of Israfil, from the Book of Kings (Shahnama) by Firdausi"
   } ]
 }
