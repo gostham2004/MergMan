@@ -33,5 +33,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gostham2004.github.io/MergMan/manifests/viewer.cbl.ie5.json",
     "label" : "Iskandar kills Fur, king of Kanuj, in battle, from the Book of Kings (Shahnama) by Firdausi"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gostham2004.github.io/MergMan/manifests/viewer.cbl.ie6.json",
+    "label" : "Iskandar receives tribute from the Indian king Kayd, including his daughter, from the Book of Kings (Shahnama) by Firdausi"
   } ]
 }
