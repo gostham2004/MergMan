@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 624,
+    "id" : "https://gostham2004.github.io/MergMan/images/DSC_5565/canvas/",
+    "label" : {
+      "none" : [ "DSC_5565" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://gostham2004.github.io/MergMan/images/DSC_5565/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://gostham2004.github.io/MergMan/images/DSC_5565/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 20,
+              "height" : 28
+            }, {
+              "width" : 39,
+              "height" : 55
+            }, {
+              "width" : 78,
+              "height" : 110
+            }, {
+              "width" : 156,
+              "height" : 220
+            }, {
+              "width" : 312,
+              "height" : 440
+            }, {
+              "width" : 624,
+              "height" : 880
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 624,
+            "@id" : "https://gostham2004.github.io/MergMan/images/DSC_5565",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 880
+          } ],
+          "format" : "image/jpeg",
+          "width" : 624,
+          "id" : "https://gostham2004.github.io/MergMan/images/DSC_5565/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 880
+        },
+        "target" : "https://gostham2004.github.io/MergMan/images/DSC_5565/canvas/"
+      } ]
+    } ],
+    "height" : 880
+  }, {
     "width" : 596,
     "id" : "https://gostham2004.github.io/MergMan/images/DSC_5563/canvas/",
     "label" : {
