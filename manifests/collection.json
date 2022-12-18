@@ -9,5 +9,9 @@
     "@type" : null,
     "@id" : "https://gostham2004.github.io/MergMan/manifests/1st.json",
     "label" : null
+  }, {
+    "@type" : null,
+    "@id" : "https://gostham2004.github.io/MergMan/manifests/first.json",
+    "label" : null
   } ]
 }
