@@ -1,3 +1,22 @@
+"structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            "http://example.org/iiif/book1/range/intro"
+        ]
+    },
+    {
+        "@id": "http://example.org/iiif/book1/range/intro",
+        "@type": "sc:Range",
+        "label": "Introduction",
+        "canvases": [
+            "$YOUR_CANVAS_ID"
+        ]
+    }
+]
 {
   "tiles" : [ {
     "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
